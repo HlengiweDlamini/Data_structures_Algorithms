@@ -1,0 +1,46 @@
+/* Color Palette */
+-fx-primary-color: #2c3e50;
+-fx-secondary-color: #34495e;
+-fx-accent-color: #3498db;
+
+/* Main Scene Background */
+.root {
+    -fx-background-color: -fx-primary-color;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: -fx-secondary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: -fx-accent-color;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-padding: 5px 10px;
+}
+
+/* Background Image */
+.root {
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

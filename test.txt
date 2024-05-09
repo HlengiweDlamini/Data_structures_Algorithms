@@ -1,0 +1,2 @@
+This is a sample text file for_testing.
+It contains some words_that will be counted for frequency.
